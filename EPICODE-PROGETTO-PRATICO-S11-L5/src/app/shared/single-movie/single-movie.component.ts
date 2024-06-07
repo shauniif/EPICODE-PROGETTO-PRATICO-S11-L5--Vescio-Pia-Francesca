@@ -10,14 +10,8 @@ import { MoviesService } from '../../pages/movies/movies.service';
 export class SingleMovieComponent {
 
   @Input() movie!: iMovie;
-  isLiked: boolean = false;
-  constructor(private movieSvc: MoviesService) { }
 
-  ngOninit() {
+  constructor(private moviesSvc: MoviesService) { }
 
-    this.movieSvc.isLiked$.subscribe(fav => {
-      this.isLiked = fav
-    })
-  }
 
 }

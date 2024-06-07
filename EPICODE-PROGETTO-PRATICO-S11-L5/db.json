@@ -39,6 +39,22 @@
       "cognome": "Aliqua ",
       "username": "mirode",
       "id": 5
+    },
+    {
+      "email": "ruzyt@mailinator.com",
+      "password": "$2a$10$Jkg4Dhs241fUAFm3q1rBzeHeyGNNc0lgmbArMIa85uuJbP/5fxiTe",
+      "nome": "Dolores quis distinc",
+      "cognome": "At accusantium nihil",
+      "username": "lujazyvaf",
+      "id": 6
+    },
+    {
+      "email": "bybacy@mailinator.com",
+      "password": "$2a$10$mGAHCw4V0ez9bDY0x7mx1uiFAvhg/x8/0ZoeoXCZfB3qhCT8auV2u",
+      "nome": "Modi iure excepteur ",
+      "cognome": "At nulla sint illo q",
+      "username": "gyhuz",
+      "id": 7
     }
   ],
   "movies-popular": [
@@ -227,30 +243,6 @@
     {
       "userId": 1,
       "movie": {
-        "id": 2,
-        "titolo": "Il Re Leone",
-        "immagine": "https://i.ebayimg.com/images/g/8B0AAOSw9PZcyzx~/s-l500.jpg",
-        "anno_di_uscita": 1994,
-        "regista": "Roger Allers, Rob Minkoff",
-        "descrizione": "La storia epica di Simba, un giovane leone destinato a diventare re."
-      },
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "movie": {
-        "id": 3,
-        "titolo": "Frozen - Il Regno di Ghiaccio",
-        "immagine": "https://pad.mymovies.it/filmclub/2012/11/199/locandina.jpg",
-        "anno_di_uscita": 2013,
-        "regista": "Chris Buck, Jennifer Lee",
-        "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
-      },
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "movie": {
         "id": 4,
         "titolo": "Alla Ricerca di Nemo",
         "immagine": "https://m.media-amazon.com/images/I/51bDZg-Qe6L._AC_UF1000,1000_QL80_.jpg",
@@ -263,137 +255,77 @@
     {
       "userId": 1,
       "movie": {
-        "id": 5,
-        "titolo": "Ratatouille",
-        "immagine": "https://m.media-amazon.com/images/I/41Bcafw3BQL._AC_UF1000,1000_QL80_.jpg",
-        "anno_di_uscita": 2007,
-        "regista": "Brad Bird, Jan Pinkava",
-        "descrizione": "Un topo parigino sogna di diventare un grande chef."
+        "id": 3,
+        "titolo": "Frozen - Il Regno di Ghiaccio",
+        "immagine": "https://pad.mymovies.it/filmclub/2012/11/199/locandina.jpg",
+        "anno_di_uscita": 2013,
+        "regista": "Chris Buck, Jennifer Lee",
+        "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
       },
       "id": 5
     },
     {
-      "userId": 2,
+      "userId": 1,
       "movie": {
-        "id": 20,
-        "titolo": "Alice nel Paese delle Meraviglie",
-        "immagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_zH3Nb4E04QkriE5q6FYEQu47QvOlNBhTDjgLuWpk-FFd44Mt",
-        "anno_di_uscita": 1951,
-        "regista": "Clyde Geronimi, Wilfred Jackson, Hamilton Luske",
-        "descrizione": "Una giovane ragazza esplora un mondo fantastico e stravagante."
-      },
-      "id": 6
-    },
-    {
-      "userId": 2,
-      "movie": {
-        "id": 18,
-        "titolo": "Il Libro della Giungla",
-        "immagine": "https://pad.mymovies.it/filmclub/2006/08/229/locandina.jpg",
-        "anno_di_uscita": 1967,
-        "regista": "Wolfgang Reitherman",
-        "descrizione": "Un giovane ragazzo cresciuto dai lupi deve affrontare il pericoloso Shere Khan."
-      },
-      "id": 7
-    },
-    {
-      "userId": 2,
-      "movie": {
-        "id": 21,
-        "titolo": "La Sirenetta",
-        "immagine": "https://m.media-amazon.com/images/I/71IHMBjSFdL._AC_UF1000,1000_QL80_.jpg",
-        "anno_di_uscita": 1989,
-        "regista": "Ron Clements, John Musker",
-        "descrizione": "Una giovane sirena sogna di vivere sulla terraferma."
-      },
-      "id": 8
-    },
-    {
-      "userId": 3,
-      "movie": {
-        "id": 6,
-        "titolo": "Coco",
-        "immagine": "https://foreveryoungadult.com/wp-content/uploads/2021/09/Coco-Cover.jpg",
-        "anno_di_uscita": 2017,
-        "regista": "Lee Unkrich, Adrian Molina",
-        "descrizione": "Un giovane ragazzo messicano scopre la storia della sua famiglia nel Giorno dei Morti."
-      },
-      "id": 9
-    },
-    {
-      "userId": 3,
-      "movie": {
-        "id": 5,
-        "titolo": "Ratatouille",
-        "immagine": "https://m.media-amazon.com/images/I/41Bcafw3BQL._AC_UF1000,1000_QL80_.jpg",
-        "anno_di_uscita": 2007,
-        "regista": "Brad Bird, Jan Pinkava",
-        "descrizione": "Un topo parigino sogna di diventare un grande chef."
-      },
-      "id": 10
-    },
-    {
-      "userId": 3,
-      "movie": {
-        "id": 10,
-        "titolo": "Gli Incredibili",
-        "immagine": "https://www.cnvf.it/wp-content/uploads/sites/2/2005/01/immagini-gli-incredibili-1-420x600.jpg",
-        "anno_di_uscita": 2004,
-        "regista": "Brad Bird",
-        "descrizione": "Una famiglia di supereroi deve salvare il mondo."
+        "id": 3,
+        "titolo": "Frozen - Il Regno di Ghiaccio",
+        "immagine": "https://pad.mymovies.it/filmclub/2012/11/199/locandina.jpg",
+        "anno_di_uscita": 2013,
+        "regista": "Chris Buck, Jennifer Lee",
+        "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
       },
       "id": 11
     },
     {
-      "userId": 4,
+      "userId": 1,
       "movie": {
-        "id": 12,
-        "titolo": "Big Hero 6",
-        "immagine": "https://m.media-amazon.com/images/I/81+MTze25KL._AC_UF1000,1000_QL80_.jpg",
-        "anno_di_uscita": 2014,
-        "regista": "Don Hall, Chris Williams",
-        "descrizione": "Un giovane genio della robotica e il suo robot gonfiabile combattono il crimine."
+        "id": 2,
+        "titolo": "Il Re Leone",
+        "immagine": "https://i.ebayimg.com/images/g/8B0AAOSw9PZcyzx~/s-l500.jpg",
+        "anno_di_uscita": 1994,
+        "regista": "Roger Allers, Rob Minkoff",
+        "descrizione": "La storia epica di Simba, un giovane leone destinato a diventare re."
       },
       "id": 12
     },
     {
-      "userId": 4,
+      "userId": 1,
       "movie": {
-        "id": 14,
-        "titolo": "Moana",
-        "immagine": "https://www.gamesurf.it/media/7537675376_4b32f6c67d/original.webp",
-        "anno_di_uscita": 2016,
-        "regista": "Ron Clements, John Musker",
-        "descrizione": "Una giovane navigatrice intraprende un viaggio per salvare la sua isola."
+        "id": 3,
+        "titolo": "Frozen - Il Regno di Ghiaccio",
+        "immagine": "https://pad.mymovies.it/filmclub/2012/11/199/locandina.jpg",
+        "anno_di_uscita": 2013,
+        "regista": "Chris Buck, Jennifer Lee",
+        "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
       },
       "id": 13
     },
     {
-      "userId": 5,
+      "userId": 1,
       "movie": {
-        "id": 18,
-        "titolo": "Il Libro della Giungla",
-        "immagine": "https://pad.mymovies.it/filmclub/2006/08/229/locandina.jpg",
-        "anno_di_uscita": 1967,
-        "regista": "Wolfgang Reitherman",
-        "descrizione": "Un giovane ragazzo cresciuto dai lupi deve affrontare il pericoloso Shere Khan."
+        "id": 4,
+        "titolo": "Alla Ricerca di Nemo",
+        "immagine": "https://m.media-amazon.com/images/I/51bDZg-Qe6L._AC_UF1000,1000_QL80_.jpg",
+        "anno_di_uscita": 2003,
+        "regista": "Andrew Stanton, Lee Unkrich",
+        "descrizione": "Un padre pesce pagliaccio cerca disperatamente suo figlio perduto."
       },
       "id": 14
     },
     {
-      "userId": 5,
+      "userId": 1,
       "movie": {
-        "id": 7,
-        "titolo": "Inside Out",
-        "immagine": "https://m.media-amazon.com/images/I/71ZQ3pws7KL._AC_UF1000,1000_QL80_.jpg",
-        "anno_di_uscita": 2015,
-        "regista": "Pete Docter, Ronnie del Carmen",
-        "descrizione": "Le emozioni di una giovane ragazza prendono vita nel suo cervello."
+        "id": 3,
+        "titolo": "Frozen - Il Regno di Ghiaccio",
+        "immagine": "https://pad.mymovies.it/filmclub/2012/11/199/locandina.jpg",
+        "anno_di_uscita": 2013,
+        "regista": "Chris Buck, Jennifer Lee",
+        "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
       },
       "id": 15
     },
     {
-      "userId": 5,
+      "userId": 1,
       "movie": {
         "id": 2,
         "titolo": "Il Re Leone",
@@ -405,7 +337,55 @@
       "id": 16
     },
     {
-      "userId": 5,
+      "userId": 1,
+      "movie": {
+        "id": 5,
+        "titolo": "Ratatouille",
+        "immagine": "https://m.media-amazon.com/images/I/41Bcafw3BQL._AC_UF1000,1000_QL80_.jpg",
+        "anno_di_uscita": 2007,
+        "regista": "Brad Bird, Jan Pinkava",
+        "descrizione": "Un topo parigino sogna di diventare un grande chef."
+      },
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "movie": {
+        "id": 6,
+        "titolo": "Coco",
+        "immagine": "https://foreveryoungadult.com/wp-content/uploads/2021/09/Coco-Cover.jpg",
+        "anno_di_uscita": 2017,
+        "regista": "Lee Unkrich, Adrian Molina",
+        "descrizione": "Un giovane ragazzo messicano scopre la storia della sua famiglia nel Giorno dei Morti."
+      },
+      "id": 18
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 1,
+        "titolo": "Toy Story",
+        "immagine": "https://i.ebayimg.com/images/g/blIAAOSw89RiPwlO/s-l500.jpg",
+        "anno_di_uscita": 1995,
+        "regista": "John Lasseter",
+        "descrizione": "Il primo lungometraggio animato interamente in CGI che segue le avventure dei giocattoli di Andy."
+      },
+      "id": 19
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 2,
+        "titolo": "Il Re Leone",
+        "immagine": "https://i.ebayimg.com/images/g/8B0AAOSw9PZcyzx~/s-l500.jpg",
+        "anno_di_uscita": 1994,
+        "regista": "Roger Allers, Rob Minkoff",
+        "descrizione": "La storia epica di Simba, un giovane leone destinato a diventare re."
+      },
+      "id": 20
+    },
+    {
+      "userId": 3,
       "movie": {
         "id": 3,
         "titolo": "Frozen - Il Regno di Ghiaccio",
@@ -414,7 +394,67 @@
         "regista": "Chris Buck, Jennifer Lee",
         "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
       },
-      "id": 17
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 4,
+        "titolo": "Alla Ricerca di Nemo",
+        "immagine": "https://m.media-amazon.com/images/I/51bDZg-Qe6L._AC_UF1000,1000_QL80_.jpg",
+        "anno_di_uscita": 2003,
+        "regista": "Andrew Stanton, Lee Unkrich",
+        "descrizione": "Un padre pesce pagliaccio cerca disperatamente suo figlio perduto."
+      },
+      "id": 22
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 6,
+        "titolo": "Coco",
+        "immagine": "https://foreveryoungadult.com/wp-content/uploads/2021/09/Coco-Cover.jpg",
+        "anno_di_uscita": 2017,
+        "regista": "Lee Unkrich, Adrian Molina",
+        "descrizione": "Un giovane ragazzo messicano scopre la storia della sua famiglia nel Giorno dei Morti."
+      },
+      "id": 23
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 1,
+        "titolo": "Toy Story",
+        "immagine": "https://i.ebayimg.com/images/g/blIAAOSw89RiPwlO/s-l500.jpg",
+        "anno_di_uscita": 1995,
+        "regista": "John Lasseter",
+        "descrizione": "Il primo lungometraggio animato interamente in CGI che segue le avventure dei giocattoli di Andy."
+      },
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 2,
+        "titolo": "Il Re Leone",
+        "immagine": "https://i.ebayimg.com/images/g/8B0AAOSw9PZcyzx~/s-l500.jpg",
+        "anno_di_uscita": 1994,
+        "regista": "Roger Allers, Rob Minkoff",
+        "descrizione": "La storia epica di Simba, un giovane leone destinato a diventare re."
+      },
+      "id": 25
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 3,
+        "titolo": "Frozen - Il Regno di Ghiaccio",
+        "immagine": "https://pad.mymovies.it/filmclub/2012/11/199/locandina.jpg",
+        "anno_di_uscita": 2013,
+        "regista": "Chris Buck, Jennifer Lee",
+        "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
+      },
+      "id": 26
     }
   ]
 }

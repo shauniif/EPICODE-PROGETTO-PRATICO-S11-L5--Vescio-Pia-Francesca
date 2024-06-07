@@ -25,8 +25,8 @@ export class MoviesComponent {
   }
   togglefavorite(movie:iMovie) {
     this.moviesSvc.toggleFavorite(movie);
-    this.moviesSvc.isLiked$.subscribe(isLiked => {
-      this.isLiked = isLiked;
-    })
+  }
+  isMovieLiked(movie:iMovie): boolean {
+    return this.moviesSvc.isMovieLiked(movie);
   }
 }

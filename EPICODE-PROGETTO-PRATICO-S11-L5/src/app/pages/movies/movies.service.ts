@@ -16,9 +16,8 @@ export class MoviesService {
   favoritemovies: iFavorite[] = [];
   userId!: number;
   favoritemovieswithId!: iFavorite
-  isLikedSub: BehaviorSubject<boolean> = new BehaviorSubject(false)
-  isLiked$ = this.isLikedSub.asObservable();
   constructor(private http:HttpClient, private authSvc: AuthService, private favoriteSvc: FavoriteService) {}
+
 
   ngOnInit() {
 
@@ -41,14 +40,17 @@ export class MoviesService {
       }
 
     let searchFavorite: iFavorite| undefined = this.favoritemovies.find(fav => fav.movie.id === movie.id)
+
     if(searchFavorite !== undefined) {
       let searchDeleted: number = this.favoritemovies.findIndex(fav => fav.id === this.favoritemovieswithId.id);
           if (searchDeleted !== -1) {
             this.favoritemovies.splice(searchDeleted, 1);
+            console.log(searchDeleted)
+            searchFavorite = undefined;
               }
           console.log(this.favoritemovies);
+
       this.favoriteSvc.delete(this.favoritemovieswithId.id).subscribe(data =>{
-        this.isLikedSub.next(false)
       })
 
     } else {
@@ -56,8 +58,10 @@ export class MoviesService {
            this.favoritemovieswithId = fav
           this.favoritemovies.push(this.favoritemovieswithId)
           console.log(this.favoritemovies)
-          this.isLikedSub.next(true)
         })
     }
+  }
+  isMovieLiked(movie: iMovie): boolean {
+    return this.favoritemovies.some(fav => fav.movie.id === movie.id);
   }
 }

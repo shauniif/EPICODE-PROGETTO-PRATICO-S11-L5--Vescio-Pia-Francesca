@@ -8,7 +8,11 @@
     <div class="card d-flex flex-column h-100">
       <app-single-movie [movie]="movie" class="flex-grow-1"></app-single-movie>
       <button class="btn btn-primary" (click)="togglefavorite(movie)">
-        {{ isLiked ? "Rimouvi dai preferiti" : "Aggiungi ai preferiti" }}
+        {{
+          isMovieLiked(movie)
+            ? "Rimuovi dai preferiti"
+            : "Aggiungi ai preferiti"
+        }}
       </button>
     </div>
   </div>
