@@ -12,6 +12,8 @@ export class LoginComponent {
   authData:iAuthData = {
     email: '',
     password: ''
+  // la maggior parte delle password son generate con "Fake Filler", tranne quello che ho creato con la mia email, che è "123456", a prova di hacker
+
   }
   constructor(
     private authSvc: AuthService,

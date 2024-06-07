@@ -1,16 +1,15 @@
-<div class="row row-cols-6">
-  <div class="col" *ngFor="let movie of movies">
-    <div class="card">
-      <img [src]="movie.immagine" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{ movie.titolo }}</h5>
-        <p class="card-text">
-          {{ movie.descrizione }}
-        </p>
-        <button class="btn btn-primary" (click)="togglefavorite(movie)">
-          Aggiungi ai preferiti
-        </button>
-      </div>
+<h2 class="text-light">
+  I film più importante in tutta la storia Dinsey &#40;non tutti, in 101 anni di
+  storia sono taaaanti&#41;
+</h2>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+  <div class="col my-3" *ngFor="let movie of movies">
+    <div class="card d-flex flex-column h-100">
+      <app-single-movie [movie]="movie" class="flex-grow-1"></app-single-movie>
+      <button class="btn btn-primary" (click)="togglefavorite(movie)">
+        {{ isLiked ? "Rimouvi dai preferiti" : "Aggiungi ai preferiti" }}
+      </button>
     </div>
   </div>
 </div>

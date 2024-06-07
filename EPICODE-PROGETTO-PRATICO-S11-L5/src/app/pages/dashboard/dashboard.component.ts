@@ -29,4 +29,5 @@ export class DashboardComponent {
   logout():void {
     this.authSvc.logout();
   }
+
 }

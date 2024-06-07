@@ -1,12 +1,34 @@
-<h1>Bevenuto {{ user.username }}</h1>
+<div class="textWhite border border-2 mt-2 ps-2 bgUserInf">
+  <h1>Bevenuto {{ user.username }}</h1>
 
-<h4>Ecco un recap dei tuoi dati:</h4>
+  <h4 class="">Ecco un recap dei tuoi dati:</h4>
 
-<p>Nome: {{ user.nome }}</p>
-<p>Cognome: {{ user.cognome }}</p>
-<p>Il tuo indirzzo email: {{ user.email }}</p>
-<p>Il tuo username: {{ user.username }}</p>
-
-i Tuoi film preferiti: Disconettetti:
-
-<button (click)="logout()" class="btn btn-danger">Disconnetti</button>
+  <p><span class="btn btn-primary">Nome:</span> {{ user.nome }}</p>
+  <p><span class="btn btn-primary">Cognome:</span> {{ user.cognome }}</p>
+  <p>
+    <span class="btn btn-primary">Il tuo indirzzo email:</span>
+    {{ user.email }}
+  </p>
+  <p>
+    <span class="btn btn-primary">Il tuo username: </span> {{ user.username }}
+  </p>
+</div>
+<div class="bgLogOut mt-2 ps-4 w-25 border border-2">
+  <h4 class="text-light mb-3 mt-2">Disconettetti:</h4>
+  <button (click)="logout()" class="btn bgButton text-light mb-2">
+    Disconnetti
+  </button>
+</div>
+<div class="text-light">
+  <h4>i Tuoi film preferiti:</h4>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+    <div class="col" *ngFor="let favorate of favoritebyUser">
+      <div class="card d-flex flex-column h-100">
+        <app-single-movie
+          [movie]="favorate.movie"
+          class="flex-grow-1"
+        ></app-single-movie>
+      </div>
+    </div>
+  </div>
+</div>

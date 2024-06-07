@@ -23,7 +23,6 @@ export class FavoriteService {
     const accessData = this.authSvc.getAccessData()
     if(!accessData) return;
     this.userId = accessData.user.id;
-
     return this.http.get<iFavorite[]>(`${this.favMoviesUrl}?userId=${this.userId}`);
   }
 }

@@ -13,21 +13,20 @@ export class MoviesComponent {
   movies:iMovie[] = [];
   favoriteMovies:iFavorite[] = []
   userId!: number;
+  isLiked: boolean = false;
   constructor(private moviesSvc:MoviesService, private authSvc: AuthService) {}
   ngOnInit() {
     this.moviesSvc.getAll().subscribe(movies => {
       this.movies = movies;
       console.log(this.movies);
 
-    })
 
-    this.authSvc.user$.subscribe(user => {
-      if(user) this.userId = user.id;
-      console.log(this.userId);
     })
-
   }
   togglefavorite(movie:iMovie) {
     this.moviesSvc.toggleFavorite(movie);
+    this.moviesSvc.isLiked$.subscribe(isLiked => {
+      this.isLiked = isLiked;
+    })
   }
 }

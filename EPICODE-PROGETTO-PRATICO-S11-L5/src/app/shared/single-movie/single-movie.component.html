@@ -1,0 +1,13 @@
+<div class="d-flex flex-column h-100">
+  <img [src]="movie.immagine" class="card-img-top" alt="cover_film" />
+  <div class="card-body flex-grow-1">
+    <h5 class="card-title">{{ movie.titolo }}</h5>
+    <p class="card-text">
+      {{ movie.descrizione }}
+    </p>
+    <p class="card-text">
+      <span class="fw-bold">Regista:</span>
+      {{ movie.regista }}
+    </p>
+  </div>
+</div>

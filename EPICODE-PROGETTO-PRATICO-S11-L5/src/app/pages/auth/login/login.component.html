@@ -1,15 +1,28 @@
-<form>
-  <input
-    type="email"
-    [(ngModel)]="authData.email"
-    name="email"
-    class="form-control"
-  />
-  <input
-    type="password"
-    [(ngModel)]="authData.password"
-    name="password"
-    class="form-control"
-  />
-  <button (click)="login()" class="btn btn-primary">Accedi! (plz) :D</button>
-</form>
+<div class="vh-100">
+  <div
+    class="border border-1 border-dark w-25 mt-5 px-4 mx-auto m-0 d-flex flex-column justify-content-center align-content-center"
+  >
+    <h4 class="text-center text-light">Entra daiii!</h4>
+    <form>
+      <input
+        type="email"
+        [(ngModel)]="authData.email"
+        name="email"
+        class="form-control my-3 px-3"
+        placeholder="inserisci la tua email"
+      />
+      <input
+        type="password"
+        [(ngModel)]="authData.password"
+        name="password"
+        class="form-control my-3 px-3"
+        placeholder="inserisci la tua password"
+      />
+      <div class="my-3">
+        <button (click)="login()" class="btn btnColor text-light w-100">
+          Accedi! :D
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

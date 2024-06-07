@@ -1,28 +1,44 @@
 {
   "users": [
     {
-      "email": "januzijyxo@mailinator.com",
-      "password": "$2a$10$7DhEziqiFB3NAYmZQ9v2Oe4G51wpDXYagTkcN4yls1RBTLvgKqDpO",
-      "nome": "Est qui quis sint an",
-      "cognome": "At suscipit quis ess",
-      "username": "gupary",
+      "email": "francescavescio12@gmail.com",
+      "password": "$2a$10$GDmLauvQbGTiUMBP458s/uOnyI0O1gdKLUaLfk48prUey3c/A9N1G",
+      "nome": "Pia Francesca",
+      "cognome": "Vescio",
+      "username": "shauniif",
       "id": 1
     },
     {
-      "email": "xosesiresi@mailinator.com",
-      "password": "$2a$10$65RDdb6T5amJeo8jjexkXOPaPAMKNnGvXKLbpTp.1nIIQqzqMTVm.",
-      "nome": "Reprehenderit sed m",
-      "cognome": "Non rem id asperior",
-      "username": "fawobok",
+      "email": "qygehywo@mailinator.com",
+      "password": "$2a$10$FIgH.Ksi0Iwhnqsxs6D5s.wpO5mhnMrudIm1zNPTrOPBBvr4ftcRa",
+      "nome": "Mario",
+      "cognome": "Rossi",
+      "username": "vyrisipu",
       "id": 2
     },
     {
-      "email": "suqap@mailinator.com",
-      "password": "$2a$10$w5xKvk8bILNMfCtVBbrFh.3aG.OH43l5Zce.NmFdupWDsYReTDR9G",
-      "nome": "Qui eos veniam volu",
-      "cognome": "Lorem ea pariatur I",
-      "username": "mipimyvika",
+      "email": "liboxugo@mailinator.com",
+      "password": "$2a$10$G8/pJm7sv5DIIeHLJFVimeSVPDT69eMEoAEcgDTfhhZIwho/3xbXe",
+      "nome": "Giovanni",
+      "cognome": "Verdi",
+      "username": "deepdarkness",
       "id": 3
+    },
+    {
+      "email": "lutaqe@mailinator.com",
+      "password": "$2a$10$EoY.ZQHJ9m62PfnjFcbigeFHgOf13te0aMK3/SVmPI0KYb3tpsF.S",
+      "nome": "aiuto",
+      "cognome": "ho già perso la creatività",
+      "username": "sipapekux",
+      "id": 4
+    },
+    {
+      "email": "tusit@mailinator.com",
+      "password": "$2a$10$NzVufZBQ3.a4kA2zddMPDuiC9qewQ.uLPIVDIrkIDJOXZfDSY4VYG",
+      "nome": "Sint ",
+      "cognome": "Aliqua ",
+      "username": "mirode",
+      "id": 5
     }
   ],
   "movies-popular": [
@@ -31,7 +47,6 @@
       "titolo": "Toy Story",
       "immagine": "https://i.ebayimg.com/images/g/blIAAOSw89RiPwlO/s-l500.jpg",
       "anno_di_uscita": 1995,
-      "durata": 81,
       "regista": "John Lasseter",
       "descrizione": "Il primo lungometraggio animato interamente in CGI che segue le avventure dei giocattoli di Andy."
     },
@@ -40,7 +55,6 @@
       "titolo": "Il Re Leone",
       "immagine": "https://i.ebayimg.com/images/g/8B0AAOSw9PZcyzx~/s-l500.jpg",
       "anno_di_uscita": 1994,
-      "durata": 88,
       "regista": "Roger Allers, Rob Minkoff",
       "descrizione": "La storia epica di Simba, un giovane leone destinato a diventare re."
     },
@@ -49,7 +63,6 @@
       "titolo": "Frozen - Il Regno di Ghiaccio",
       "immagine": "https://pad.mymovies.it/filmclub/2012/11/199/locandina.jpg",
       "anno_di_uscita": 2013,
-      "durata": 102,
       "regista": "Chris Buck, Jennifer Lee",
       "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
     },
@@ -58,7 +71,6 @@
       "titolo": "Alla Ricerca di Nemo",
       "immagine": "https://m.media-amazon.com/images/I/51bDZg-Qe6L._AC_UF1000,1000_QL80_.jpg",
       "anno_di_uscita": 2003,
-      "durata": 100,
       "regista": "Andrew Stanton, Lee Unkrich",
       "descrizione": "Un padre pesce pagliaccio cerca disperatamente suo figlio perduto."
     },
@@ -67,7 +79,6 @@
       "titolo": "Ratatouille",
       "immagine": "https://m.media-amazon.com/images/I/41Bcafw3BQL._AC_UF1000,1000_QL80_.jpg",
       "anno_di_uscita": 2007,
-      "durata": 111,
       "regista": "Brad Bird, Jan Pinkava",
       "descrizione": "Un topo parigino sogna di diventare un grande chef."
     },
@@ -76,7 +87,6 @@
       "titolo": "Coco",
       "immagine": "https://foreveryoungadult.com/wp-content/uploads/2021/09/Coco-Cover.jpg",
       "anno_di_uscita": 2017,
-      "durata": 105,
       "regista": "Lee Unkrich, Adrian Molina",
       "descrizione": "Un giovane ragazzo messicano scopre la storia della sua famiglia nel Giorno dei Morti."
     },
@@ -85,7 +95,6 @@
       "titolo": "Inside Out",
       "immagine": "https://m.media-amazon.com/images/I/71ZQ3pws7KL._AC_UF1000,1000_QL80_.jpg",
       "anno_di_uscita": 2015,
-      "durata": 95,
       "regista": "Pete Docter, Ronnie del Carmen",
       "descrizione": "Le emozioni di una giovane ragazza prendono vita nel suo cervello."
     },
@@ -94,7 +103,6 @@
       "titolo": "Zootropolis",
       "immagine": "https://mr.comingsoon.it/imgdb/locandine/big/52568.jpg",
       "anno_di_uscita": 2016,
-      "durata": 108,
       "regista": "Byron Howard, Rich Moore",
       "descrizione": "Una coniglietta poliziotta e una volpe truffatore risolvono un mistero."
     },
@@ -103,118 +111,310 @@
       "titolo": "Monsters & Co.",
       "immagine": "https://musicart.xboxlive.com/7/a5af1000-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
       "anno_di_uscita": 2001,
-      "durata": 92,
       "regista": "Pete Docter, David Silverman, Lee Unkrich",
       "descrizione": "Due mostri cercano di riportare una bambina nel suo mondo."
     },
     {
       "id": 10,
       "titolo": "Gli Incredibili",
-      "immagine": "http://linkfinto.com/incredibili.jpg",
+      "immagine": "https://www.cnvf.it/wp-content/uploads/sites/2/2005/01/immagini-gli-incredibili-1-420x600.jpg",
       "anno_di_uscita": 2004,
-      "durata": 115,
       "regista": "Brad Bird",
       "descrizione": "Una famiglia di supereroi deve salvare il mondo."
     },
     {
       "id": 11,
       "titolo": "Up",
-      "immagine": "http://linkfinto.com/up.jpg",
+      "immagine": "https://movieplayer.net-cdn.it/t/images/2009/10/16/una-locandina-italiana-per-up-della-pixar-134697_jpg_400x0_crop_q85.jpg",
       "anno_di_uscita": 2009,
-      "durata": 96,
       "regista": "Pete Docter, Bob Peterson",
       "descrizione": "Un anziano vedovo e un giovane esploratore viaggiano verso una cascata paradisiaca."
     },
     {
       "id": 12,
       "titolo": "Big Hero 6",
-      "immagine": "http://linkfinto.com/bighero6.jpg",
+      "immagine": "https://m.media-amazon.com/images/I/81+MTze25KL._AC_UF1000,1000_QL80_.jpg",
       "anno_di_uscita": 2014,
-      "durata": 102,
       "regista": "Don Hall, Chris Williams",
       "descrizione": "Un giovane genio della robotica e il suo robot gonfiabile combattono il crimine."
     },
     {
       "id": 13,
       "titolo": "La Bella e la Bestia",
-      "immagine": "http://linkfinto.com/labellabestia.jpg",
+      "immagine": "https://musicart.xboxlive.com/7/e1a94400-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080",
       "anno_di_uscita": 1991,
-      "durata": 84,
       "regista": "Gary Trousdale, Kirk Wise",
       "descrizione": "Una giovane donna si innamora di una bestia incantata."
     },
     {
       "id": 14,
       "titolo": "Moana",
-      "immagine": "http://linkfinto.com/moana.jpg",
+      "immagine": "https://www.gamesurf.it/media/7537675376_4b32f6c67d/original.webp",
       "anno_di_uscita": 2016,
-      "durata": 107,
       "regista": "Ron Clements, John Musker",
       "descrizione": "Una giovane navigatrice intraprende un viaggio per salvare la sua isola."
     },
     {
       "id": 15,
       "titolo": "Wall-E",
-      "immagine": "http://linkfinto.com/walle.jpg",
+      "immagine": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_FMjpg_UX1000_.jpg",
       "anno_di_uscita": 2008,
-      "durata": 98,
       "regista": "Andrew Stanton",
       "descrizione": "Un robot pulitore scopre il significato dell'amore in un mondo post-apocalittico."
     },
     {
       "id": 16,
       "titolo": "Rapunzel - L'Intreccio della Torre",
-      "immagine": "http://linkfinto.com/rapunzel.jpg",
+      "immagine": "https://pad.mymovies.it/filmclub/2009/05/036/locandina.jpg",
       "anno_di_uscita": 2010,
-      "durata": 100,
       "regista": "Nathan Greno, Byron Howard",
       "descrizione": "Una giovane principessa dai lunghi capelli fugge dalla sua torre."
     },
     {
       "id": 17,
       "titolo": "Gli Aristogatti",
-      "immagine": "http://linkfinto.com/aristogatti.jpg",
+      "immagine": "https://m.media-amazon.com/images/I/91nY7IAXK3L._AC_UF1000,1000_QL80_.jpg",
       "anno_di_uscita": 1970,
-      "durata": 78,
       "regista": "Wolfgang Reitherman",
       "descrizione": "Un gruppo di gatti aristocratici deve ritrovare la strada di casa con l'aiuto di un gatto randagio."
     },
     {
       "id": 18,
       "titolo": "Il Libro della Giungla",
-      "immagine": "http://linkfinto.com/il_libro_della_giungla.jpg",
+      "immagine": "https://pad.mymovies.it/filmclub/2006/08/229/locandina.jpg",
       "anno_di_uscita": 1967,
-      "durata": 78,
       "regista": "Wolfgang Reitherman",
       "descrizione": "Un giovane ragazzo cresciuto dai lupi deve affrontare il pericoloso Shere Khan."
     },
     {
       "id": 19,
       "titolo": "Tarzan",
-      "immagine": "http://linkfinto.com/tarzan.jpg",
+      "immagine": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihiRdOGLL5hrVsy6AOd6sqb-F6N7K0vizUEvNpNYZdICC3s2d3m22Z7iAjGkFYhSd3fvSEHNXJUDHx3mDWVXPMuP03qG7MLaSjUWeqU3WR6RK0lJ-jy1-cUJr1NQi6JvaecI7L6sRZsLbJ/s1600/0-Tarzan-Poster-recensione-disney-1999.jpg",
       "anno_di_uscita": 1999,
-      "durata": 88,
       "regista": "Chris Buck, Kevin Lima",
       "descrizione": "Un uomo cresciuto dai gorilla scopre il mondo umano."
     },
     {
       "id": 20,
       "titolo": "Alice nel Paese delle Meraviglie",
-      "immagine": "http://linkfinto.com/alice.jpg",
+      "immagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_zH3Nb4E04QkriE5q6FYEQu47QvOlNBhTDjgLuWpk-FFd44Mt",
       "anno_di_uscita": 1951,
-      "durata": 75,
       "regista": "Clyde Geronimi, Wilfred Jackson, Hamilton Luske",
       "descrizione": "Una giovane ragazza esplora un mondo fantastico e stravagante."
     },
     {
       "id": 21,
       "titolo": "La Sirenetta",
-      "immagine": "http://linkfinto.com/lasirenetta.jpg",
+      "immagine": "https://m.media-amazon.com/images/I/71IHMBjSFdL._AC_UF1000,1000_QL80_.jpg",
       "anno_di_uscita": 1989,
-      "durata": 83,
       "regista": "Ron Clements, John Musker",
       "descrizione": "Una giovane sirena sogna di vivere sulla terraferma."
     }
   ],
-  "favorites": []
+  "favorites": [
+    {
+      "userId": 1,
+      "movie": {
+        "id": 1,
+        "titolo": "Toy Story",
+        "immagine": "https://i.ebayimg.com/images/g/blIAAOSw89RiPwlO/s-l500.jpg",
+        "anno_di_uscita": 1995,
+        "regista": "John Lasseter",
+        "descrizione": "Il primo lungometraggio animato interamente in CGI che segue le avventure dei giocattoli di Andy."
+      },
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "movie": {
+        "id": 2,
+        "titolo": "Il Re Leone",
+        "immagine": "https://i.ebayimg.com/images/g/8B0AAOSw9PZcyzx~/s-l500.jpg",
+        "anno_di_uscita": 1994,
+        "regista": "Roger Allers, Rob Minkoff",
+        "descrizione": "La storia epica di Simba, un giovane leone destinato a diventare re."
+      },
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "movie": {
+        "id": 3,
+        "titolo": "Frozen - Il Regno di Ghiaccio",
+        "immagine": "https://pad.mymovies.it/filmclub/2012/11/199/locandina.jpg",
+        "anno_di_uscita": 2013,
+        "regista": "Chris Buck, Jennifer Lee",
+        "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
+      },
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "movie": {
+        "id": 4,
+        "titolo": "Alla Ricerca di Nemo",
+        "immagine": "https://m.media-amazon.com/images/I/51bDZg-Qe6L._AC_UF1000,1000_QL80_.jpg",
+        "anno_di_uscita": 2003,
+        "regista": "Andrew Stanton, Lee Unkrich",
+        "descrizione": "Un padre pesce pagliaccio cerca disperatamente suo figlio perduto."
+      },
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "movie": {
+        "id": 5,
+        "titolo": "Ratatouille",
+        "immagine": "https://m.media-amazon.com/images/I/41Bcafw3BQL._AC_UF1000,1000_QL80_.jpg",
+        "anno_di_uscita": 2007,
+        "regista": "Brad Bird, Jan Pinkava",
+        "descrizione": "Un topo parigino sogna di diventare un grande chef."
+      },
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "movie": {
+        "id": 20,
+        "titolo": "Alice nel Paese delle Meraviglie",
+        "immagine": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_zH3Nb4E04QkriE5q6FYEQu47QvOlNBhTDjgLuWpk-FFd44Mt",
+        "anno_di_uscita": 1951,
+        "regista": "Clyde Geronimi, Wilfred Jackson, Hamilton Luske",
+        "descrizione": "Una giovane ragazza esplora un mondo fantastico e stravagante."
+      },
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "movie": {
+        "id": 18,
+        "titolo": "Il Libro della Giungla",
+        "immagine": "https://pad.mymovies.it/filmclub/2006/08/229/locandina.jpg",
+        "anno_di_uscita": 1967,
+        "regista": "Wolfgang Reitherman",
+        "descrizione": "Un giovane ragazzo cresciuto dai lupi deve affrontare il pericoloso Shere Khan."
+      },
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "movie": {
+        "id": 21,
+        "titolo": "La Sirenetta",
+        "immagine": "https://m.media-amazon.com/images/I/71IHMBjSFdL._AC_UF1000,1000_QL80_.jpg",
+        "anno_di_uscita": 1989,
+        "regista": "Ron Clements, John Musker",
+        "descrizione": "Una giovane sirena sogna di vivere sulla terraferma."
+      },
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 6,
+        "titolo": "Coco",
+        "immagine": "https://foreveryoungadult.com/wp-content/uploads/2021/09/Coco-Cover.jpg",
+        "anno_di_uscita": 2017,
+        "regista": "Lee Unkrich, Adrian Molina",
+        "descrizione": "Un giovane ragazzo messicano scopre la storia della sua famiglia nel Giorno dei Morti."
+      },
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 5,
+        "titolo": "Ratatouille",
+        "immagine": "https://m.media-amazon.com/images/I/41Bcafw3BQL._AC_UF1000,1000_QL80_.jpg",
+        "anno_di_uscita": 2007,
+        "regista": "Brad Bird, Jan Pinkava",
+        "descrizione": "Un topo parigino sogna di diventare un grande chef."
+      },
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "movie": {
+        "id": 10,
+        "titolo": "Gli Incredibili",
+        "immagine": "https://www.cnvf.it/wp-content/uploads/sites/2/2005/01/immagini-gli-incredibili-1-420x600.jpg",
+        "anno_di_uscita": 2004,
+        "regista": "Brad Bird",
+        "descrizione": "Una famiglia di supereroi deve salvare il mondo."
+      },
+      "id": 11
+    },
+    {
+      "userId": 4,
+      "movie": {
+        "id": 12,
+        "titolo": "Big Hero 6",
+        "immagine": "https://m.media-amazon.com/images/I/81+MTze25KL._AC_UF1000,1000_QL80_.jpg",
+        "anno_di_uscita": 2014,
+        "regista": "Don Hall, Chris Williams",
+        "descrizione": "Un giovane genio della robotica e il suo robot gonfiabile combattono il crimine."
+      },
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "movie": {
+        "id": 14,
+        "titolo": "Moana",
+        "immagine": "https://www.gamesurf.it/media/7537675376_4b32f6c67d/original.webp",
+        "anno_di_uscita": 2016,
+        "regista": "Ron Clements, John Musker",
+        "descrizione": "Una giovane navigatrice intraprende un viaggio per salvare la sua isola."
+      },
+      "id": 13
+    },
+    {
+      "userId": 5,
+      "movie": {
+        "id": 18,
+        "titolo": "Il Libro della Giungla",
+        "immagine": "https://pad.mymovies.it/filmclub/2006/08/229/locandina.jpg",
+        "anno_di_uscita": 1967,
+        "regista": "Wolfgang Reitherman",
+        "descrizione": "Un giovane ragazzo cresciuto dai lupi deve affrontare il pericoloso Shere Khan."
+      },
+      "id": 14
+    },
+    {
+      "userId": 5,
+      "movie": {
+        "id": 7,
+        "titolo": "Inside Out",
+        "immagine": "https://m.media-amazon.com/images/I/71ZQ3pws7KL._AC_UF1000,1000_QL80_.jpg",
+        "anno_di_uscita": 2015,
+        "regista": "Pete Docter, Ronnie del Carmen",
+        "descrizione": "Le emozioni di una giovane ragazza prendono vita nel suo cervello."
+      },
+      "id": 15
+    },
+    {
+      "userId": 5,
+      "movie": {
+        "id": 2,
+        "titolo": "Il Re Leone",
+        "immagine": "https://i.ebayimg.com/images/g/8B0AAOSw9PZcyzx~/s-l500.jpg",
+        "anno_di_uscita": 1994,
+        "regista": "Roger Allers, Rob Minkoff",
+        "descrizione": "La storia epica di Simba, un giovane leone destinato a diventare re."
+      },
+      "id": 16
+    },
+    {
+      "userId": 5,
+      "movie": {
+        "id": 3,
+        "titolo": "Frozen - Il Regno di Ghiaccio",
+        "immagine": "https://pad.mymovies.it/filmclub/2012/11/199/locandina.jpg",
+        "anno_di_uscita": 2013,
+        "regista": "Chris Buck, Jennifer Lee",
+        "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
+      },
+      "id": 17
+    }
+  ]
 }

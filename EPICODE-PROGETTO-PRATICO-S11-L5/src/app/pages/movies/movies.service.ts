@@ -5,6 +5,7 @@ import { iMovie } from '../../interfaces/i-movie';
 import { environment } from '../../../environments/environment.development';
 import { iFavorite } from '../../interfaces/i-favorite';
 import { FavoriteService } from '../../favorite/favorite.service';
+import { BehaviorSubject, Subject, SubjectLike } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -15,6 +16,8 @@ export class MoviesService {
   favoritemovies: iFavorite[] = [];
   userId!: number;
   favoritemovieswithId!: iFavorite
+  isLikedSub: BehaviorSubject<boolean> = new BehaviorSubject(false)
+  isLiked$ = this.isLikedSub.asObservable();
   constructor(private http:HttpClient, private authSvc: AuthService, private favoriteSvc: FavoriteService) {}
 
   ngOnInit() {
@@ -37,14 +40,23 @@ export class MoviesService {
       movie: movie
       }
 
-    const searchFavorite: iFavorite| undefined = this.favoritemovies.find(fav => fav.movie.id === movie.id)
+    let searchFavorite: iFavorite| undefined = this.favoritemovies.find(fav => fav.movie.id === movie.id)
     if(searchFavorite !== undefined) {
-      this.favoriteSvc.delete(this.favoritemovieswithId.id).subscribe({})
-      } else {
+      let searchDeleted: number = this.favoritemovies.findIndex(fav => fav.id === this.favoritemovieswithId.id);
+          if (searchDeleted !== -1) {
+            this.favoritemovies.splice(searchDeleted, 1);
+              }
+          console.log(this.favoritemovies);
+      this.favoriteSvc.delete(this.favoritemovieswithId.id).subscribe(data =>{
+        this.isLikedSub.next(false)
+      })
+
+    } else {
         this.favoriteSvc.create(favoriteMovie).subscribe(fav =>{
            this.favoritemovieswithId = fav
           this.favoritemovies.push(this.favoritemovieswithId)
           console.log(this.favoritemovies)
+          this.isLikedSub.next(true)
         })
     }
   }
