@@ -1,0 +1,38 @@
+<form>
+  <input
+    type="text"
+    name="nome"
+    [(ngModel)]="newUser.nome"
+    placeholder="il tuo nome"
+    class="form-control"
+  />
+  <input
+    type="text"
+    name="cognome"
+    [(ngModel)]="newUser.cognome"
+    placeholder="il tuo cognome"
+    class="form-control"
+  />
+  <input
+    type="text"
+    name="username"
+    [(ngModel)]="newUser.username"
+    placeholder="il tuo username"
+    class="form-control"
+  />
+  <input
+    type="email"
+    name="email"
+    [(ngModel)]="newUser.email"
+    placeholder="la tua email"
+    class="form-control"
+  />
+  <input
+    type="password"
+    name="nome"
+    [(ngModel)]="newUser.password"
+    placeholder="la tua password"
+    class="form-control"
+  />
+  <button (click)="register()" class="btn btn-success">Registrati!</button>
+</form>

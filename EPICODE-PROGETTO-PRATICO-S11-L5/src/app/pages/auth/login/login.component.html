@@ -1,0 +1,15 @@
+<form>
+  <input
+    type="email"
+    [(ngModel)]="authData.email"
+    name="email"
+    class="form-control"
+  />
+  <input
+    type="password"
+    [(ngModel)]="authData.password"
+    name="password"
+    class="form-control"
+  />
+  <button (click)="login()" class="btn btn-primary">Accedi! (plz) :D</button>
+</form>

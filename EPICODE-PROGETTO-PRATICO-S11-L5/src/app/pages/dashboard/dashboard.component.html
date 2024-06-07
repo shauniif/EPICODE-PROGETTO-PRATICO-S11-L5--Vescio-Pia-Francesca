@@ -1,0 +1,12 @@
+<h1>Bevenuto {{ user.username }}</h1>
+
+<h4>Ecco un recap dei tuoi dati:</h4>
+
+<p>Nome: {{ user.nome }}</p>
+<p>Cognome: {{ user.cognome }}</p>
+<p>Il tuo indirzzo email: {{ user.email }}</p>
+<p>Il tuo username: {{ user.username }}</p>
+
+i Tuoi film preferiti: Disconettetti:
+
+<button (click)="logout()" class="btn btn-danger">Disconnetti</button>
