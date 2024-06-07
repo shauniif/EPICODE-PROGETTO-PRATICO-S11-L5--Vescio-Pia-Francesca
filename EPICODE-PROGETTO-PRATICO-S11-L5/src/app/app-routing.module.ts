@@ -14,6 +14,7 @@ const routes: Routes = [
     loadChildren: () => import('./pages/dashboard/dashboard.module').then(m => m.DashboardModule),
     canActivate:[AuthGuard],
     canActivateChild: [AuthGuard],
+
   },
   {
     path: 'movies',
