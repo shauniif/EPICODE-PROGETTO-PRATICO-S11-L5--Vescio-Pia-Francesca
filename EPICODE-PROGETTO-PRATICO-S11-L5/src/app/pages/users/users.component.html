@@ -1,1 +1,12 @@
-<p>users works!</p>
+<div class="row row-cols-lg-6">
+  <div class="col" *ngFor="let user of users">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Utente: {{ user.username }}</h5>
+        <h4>Nome: {{ user.nome }}</h4>
+        <h4>Cognome: {{ user.cognome }}</h4>
+        <h4>Indirizzo email: {{ user.email }}</h4>
+      </div>
+    </div>
+  </div>
+</div>

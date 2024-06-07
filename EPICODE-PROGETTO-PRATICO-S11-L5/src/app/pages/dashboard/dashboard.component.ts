@@ -1,6 +1,8 @@
+import { FavoriteService } from './../../favorite/favorite.service';
 import { Component } from '@angular/core';
 import { iUser } from '../../interfaces/i-user';
 import { AuthService } from '../auth/auth.service';
+import { iFavorite } from '../../interfaces/i-favorite';
 
 @Component({
   selector: 'app-dashboard',
@@ -9,11 +11,18 @@ import { AuthService } from '../auth/auth.service';
 })
 export class DashboardComponent {
   user!: iUser;
-  constructor(private authSvc: AuthService) {}
+
+  favoritebyUser: iFavorite[] = [];
+  constructor(private authSvc: AuthService, private favoriteSvc:FavoriteService) {}
 
   ngOnInit() {
     this.authSvc.user$.subscribe(user => {
       if(user) this.user = user;
+    })
+
+    this.favoriteSvc.getFavoriteByUser()?.subscribe(favs =>{
+      this.favoritebyUser = favs;
+      console.log(this.favoritebyUser);
     })
   }
 
