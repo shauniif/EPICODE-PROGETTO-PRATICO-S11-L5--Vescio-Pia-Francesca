@@ -61,6 +61,7 @@ export class MoviesService {
         })
     }
   }
+  // prima ho usato i Behavior Subject per far cambiare il testo del bottone all'iterno del movies component ma in quel modo ovviamente, al click di uno cambiava lo stato di tutti gli altri. Così ho usato questa funzione che ritorna se l'id del film preferito è uguale all'id del film. Anche se mi da ancora problemi. Quale sarebbe la soluzione adatta?
   isMovieLiked(movie: iMovie): boolean {
     return this.favoritemovies.some(fav => fav.movie.id === movie.id);
   }
