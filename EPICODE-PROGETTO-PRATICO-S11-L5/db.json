@@ -55,6 +55,14 @@
       "cognome": "At nulla sint illo q",
       "username": "gyhuz",
       "id": 7
+    },
+    {
+      "email": "caxyru@mailinator.com",
+      "password": "$2a$10$Y89PppYD9Pr2uPFhXv59G.Xt4o3qhR5EYpFQ9SOCKou30misFdFT6",
+      "nome": "Dolorem accusamus qu",
+      "cognome": "Nobis dolor consecte",
+      "username": "qugixyd",
+      "id": 8
     }
   ],
   "movies-popular": [
@@ -455,6 +463,54 @@
         "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
       },
       "id": 26
+    },
+    {
+      "userId": 8,
+      "movie": {
+        "id": 1,
+        "titolo": "Toy Story",
+        "immagine": "https://i.ebayimg.com/images/g/blIAAOSw89RiPwlO/s-l500.jpg",
+        "anno_di_uscita": 1995,
+        "regista": "John Lasseter",
+        "descrizione": "Il primo lungometraggio animato interamente in CGI che segue le avventure dei giocattoli di Andy."
+      },
+      "id": 27
+    },
+    {
+      "userId": 8,
+      "movie": {
+        "id": 2,
+        "titolo": "Il Re Leone",
+        "immagine": "https://i.ebayimg.com/images/g/8B0AAOSw9PZcyzx~/s-l500.jpg",
+        "anno_di_uscita": 1994,
+        "regista": "Roger Allers, Rob Minkoff",
+        "descrizione": "La storia epica di Simba, un giovane leone destinato a diventare re."
+      },
+      "id": 28
+    },
+    {
+      "userId": 8,
+      "movie": {
+        "id": 3,
+        "titolo": "Frozen - Il Regno di Ghiaccio",
+        "immagine": "https://pad.mymovies.it/filmclub/2012/11/199/locandina.jpg",
+        "anno_di_uscita": 2013,
+        "regista": "Chris Buck, Jennifer Lee",
+        "descrizione": "Due sorelle, Elsa e Anna, devono salvare il loro regno dal gelo eterno."
+      },
+      "id": 29
+    },
+    {
+      "userId": 2,
+      "movie": {
+        "id": 1,
+        "titolo": "Toy Story",
+        "immagine": "https://i.ebayimg.com/images/g/blIAAOSw89RiPwlO/s-l500.jpg",
+        "anno_di_uscita": 1995,
+        "regista": "John Lasseter",
+        "descrizione": "Il primo lungometraggio animato interamente in CGI che segue le avventure dei giocattoli di Andy."
+      },
+      "id": 30
     }
   ]
 }

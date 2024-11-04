@@ -1,3 +1,4 @@
+import { FavoriteService } from './../../favorite/favorite.service';
 import { Component } from '@angular/core';
 import { MoviesService } from './movies.service';
 import { iMovie } from '../../interfaces/i-movie';
@@ -14,13 +15,10 @@ export class MoviesComponent {
   favoriteMovies:iFavorite[] = []
   userId!: number;
   isLiked: boolean = false;
-  constructor(private moviesSvc:MoviesService, private authSvc: AuthService) {}
+  constructor(private moviesSvc:MoviesService, private authSvc: AuthService, private favoriteSvc: FavoriteService) {}
   ngOnInit() {
     this.moviesSvc.getAll().subscribe(movies => {
       this.movies = movies;
-      console.log(this.movies);
-
-
     })
   }
   togglefavorite(movie:iMovie) {
